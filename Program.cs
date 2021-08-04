@@ -89,7 +89,7 @@ namespace DIO.Bank
 			Console.WriteLine("Inserir nova conta");
 
 			Console.Write("Digite 1 para Conta Fisica ou 2 para Juridica: ");
-			int entradaTipoConta = int.Parse(Console.ReadLine()); //converte o que o usuário digitau, em inteiro.
+			int entradaTipoConta = int.Parse(Console.ReadLine()); //converte o que o usuário digitou, em inteiro.
 
 			Console.Write("Digite o Nome do Cliente: ");
 			string entradaNome = Console.ReadLine();
